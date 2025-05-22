@@ -40,7 +40,7 @@ def zip_videos(source_folder, zip_name):
     print(f"Created zip file: {zip_name}")
 
 if __name__ == "__main__":
-    videos_folder = 'https/videos'
+    videos_folder = 'videos'
     if not os.path.exists(videos_folder):
         os.makedirs(videos_folder)
 
